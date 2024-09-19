@@ -1,6 +1,6 @@
 html {
     background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
-    background-size: 100%;
+    background-size: 1500px;
     margin: 0;
     padding: 20px;
 }
@@ -79,7 +79,7 @@ img {
 
 
 /* Para pantallas medianas como tablets (más de 768px) */
-@media (min-width: 430px) {
+@media (min-width: 414px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -99,5 +99,4 @@ img {
 @media (min-width: 1080px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr);
-    }
-}
+    }}

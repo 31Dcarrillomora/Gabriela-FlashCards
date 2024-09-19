@@ -100,4 +100,28 @@ img {
     object-fit: cover; /* La imagen se ajusta sin recortarse */
     background-color: #05e2e2; /* Color de fondo para rellenar el espacio vacío si es necesario */
     border: 2px solid #000000; /* Añadir un borde para mayor claridad */
+
+/* Media Queries para Responsividad */
+
+/* Pantallas grandes - Computadoras */
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Pantallas pequeñas - Teléfonos móviles */
+@media (max-width: 767px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+

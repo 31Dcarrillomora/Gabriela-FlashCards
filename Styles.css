@@ -29,10 +29,10 @@ html {
 .Contenedor-tarjetas {
     display: grid; /* Activar CSS Grid */
     gap: 20px; /* Espacio entre filas y columnas */
+    
     padding: 20px;
-    justify-content: center; /* Alinea las tarjetas al centro horizontalmente */
+   
 }
-
 .media-card {
     background-color: #fff; /* Fondo de contenedor de las imágenes */
     border-radius: 10px;
@@ -43,27 +43,10 @@ html {
     max-width: 300px; /* Limitar el ancho de las tarjetas */
     margin: 0 auto; /* Centra las tarjetas */
 }
-
 .media-card:hover {
     transform: scale(1.05); /* Efecto al pasar el ratón */
 }
-
-/*-----------------------------Sección 2---------------------------------------------------------*/
-.media-card2 {
-    background-color: #fff; /* Fondo de contenedor de las imágenes */
-    border-radius: 10px;
-    padding: 30px;
-    text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
-    transition: transform 0.3s ease;
-    max-width: 300px; /* Limitar el ancho de las tarjetas */
-    margin: 0 auto; /* Centra las tarjetas */
-
-}
-
-.media-card2:hover {
-    transform: scale(1.05); /* Efecto al pasar el ratón */
-}
+/*---------------------------------------------------------------------------------------------------------------*/
 
 /*--------------------------------------------Configuración de imágenes------------------------------------------*/
 img {
@@ -73,72 +56,101 @@ img {
     background-color: #05e2e2; /* Color de fondo para rellenar el espacio vacío si es necesario */
     border: 2px solid #000000; /* Añadir un borde para mayor claridad */
 }
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------Dispositivos Responsive------------------------------*/
 
 /* desconocido (más de 100px) */
 @media (min-width: 100px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+     
     }}
 /* desconocido (más de 200px) */
 @media (min-width: 200px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+   
     }}
 /* desconocido (más de 300px) */
 @media (min-width: 300px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+
     }}
 
 /* desconocido (más de 400px) */
 @media (min-width: 400px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+
     }
 }
 /* desconocido (más de 500px) */
 @media (min-width: 500px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        
     }
 }
 /* desconocido (más de 600px) */
 @media (min-width: 600px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        
     }
 }
-
 
 /* desconocido (más de 700px) */
 @media (min-width: 700px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        
     }
 }
-
-
 
 /* desconocido (más de 800px) */
 @media (min-width: 800px) {
     .Contenedor-tarjetas {
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: repeat(2, 1fr);
+        
     }}
 /* desconocido (más de 900px) */
 @media (min-width: 900px) {
     .Contenedor-tarjetas {
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: repeat(2, 1fr);
+        
     }}
 
 /* desconocido (más de 1000px) */
 @media (min-width: 1000px) {
     .Contenedor-tarjetas {
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: repeat(2, 1fr);
+        
     }}
+
+
+/* Para pantallas medianas (tablets) */
+@media (min-width: 768px) {
+    .Contenedor-tarjetas {
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */
+        
+    }
+}
+
+/* Para pantallas grandes (laptops y escritorios) */
+@media (min-width: 1025px) {
+    .Contenedor-tarjetas {
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */
+        
+    }
+}
+/*-------------------------------------------------------------------------*/

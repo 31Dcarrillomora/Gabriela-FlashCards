@@ -5,26 +5,27 @@ html {
 }
 
 /*------------------------------------Pantallas responsive-------------------------------------*/
-/* Media Queries para diseño responsivo */
-
 /* Pantallas pequeñas - Teléfonos móviles */
 @media (max-width: 600px) {
     .grid {
-        grid-template-columns: 1fr; /* Una columna */
+        grid-template-columns: repeat(1, 1fr); /* 1 columna por fila */
+        grid-template-rows: repeat(4, auto);  /* Siempre 4 filas */
     }
 }
 
 /* Pantallas medianas - Tablets */
 @media (min-width: 601px) and (max-width: 1024px) {
     .grid {
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas por fila */
+        grid-template-rows: repeat(4, auto);  /* Siempre 4 filas */
     }
 }
 
 /* Pantallas grandes - Computadoras */
 @media (min-width: 1025px) {
     .grid {
-        grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas por fila */
+        grid-template-rows: repeat(4, auto);  /* Siempre 4 filas */
     }
 }
 
@@ -100,4 +101,28 @@ img {
     object-fit: cover; /* La imagen se ajusta sin recortarse */
     background-color: #05e2e2; /* Color de fondo para rellenar el espacio vacío si es necesario */
     border: 2px solid #000000; /* Añadir un borde para mayor claridad */
+
+/* Media Queries para Responsividad */
+
+/* Pantallas grandes - Computadoras */
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Pantallas pequeñas - Teléfonos móviles */
+@media (max-width: 767px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+

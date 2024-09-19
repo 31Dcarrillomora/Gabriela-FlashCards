@@ -74,8 +74,18 @@ img {
     border: 2px solid #000000; /* Añadir un borde para mayor claridad */
 }
 
-
-
+/* desconocido (más de 100px) */
+@media (min-width: 100px) {
+    .Contenedor-tarjetas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }}
+/* desconocido (más de 200px) */
+@media (min-width: 200px) {
+    .Contenedor-tarjetas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }}
 /* desconocido (más de 300px) */
 @media (min-width: 300px) {
     .Contenedor-tarjetas {
@@ -83,21 +93,21 @@ img {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }}
 
-/* pixel 7 (más de 410px) */
-@media (min-width: 410px) {
+/* desconocido (más de 400px) */
+@media (min-width: 400px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-/* Para pantallas medianas como tablets (más de 414px) */
-@media (min-width: 414px) {
+/* desconocido (más de 500px) */
+@media (min-width: 500px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-/* Para pantallas medianas como tablets (más de 600px) */
+/* desconocido (más de 600px) */
 @media (min-width: 600px) {
     .Contenedor-tarjetas {
         display: grid;
@@ -106,8 +116,8 @@ img {
 }
 
 
-/* Para pantallas medianas como tablets (más de 768px) */
-@media (min-width: 768px) {
+/* desconocido (más de 700px) */
+@media (min-width: 700px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -116,8 +126,19 @@ img {
 
 
 
-/* Para pantallas grandes como escritorios (más de 1024px) */
+/* desconocido (más de 800px) */
 @media (min-width: 800px) {
+    .Contenedor-tarjetas {
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }}
+/* desconocido (más de 900px) */
+@media (min-width: 900px) {
+    .Contenedor-tarjetas {
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }}
+
+/* desconocido (más de 1000px) */
+@media (min-width: 1000px) {
     .Contenedor-tarjetas {
         grid-template-columns: 1fr 1fr 1fr 1fr ;
     }}

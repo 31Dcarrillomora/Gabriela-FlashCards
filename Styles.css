@@ -77,7 +77,13 @@ img {
 }
 
 
-
+/* iphone xs (más de 768px) */
+@media (min-width: 458px) {
+    .Contenedor-tarjetas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 /* Para pantallas medianas como tablets (más de 768px) */
 @media (min-width: 414px) {
     .Contenedor-tarjetas {

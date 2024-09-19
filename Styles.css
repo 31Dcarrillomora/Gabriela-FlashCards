@@ -1,5 +1,6 @@
 html {
     background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    background-size: 100%;
     margin: 0;
     padding: 20px;
 }
@@ -73,4 +74,30 @@ img {
     object-fit: cover; /* La imagen se ajusta sin recortarse */
     background-color: #05e2e2; /* Color de fondo para rellenar el espacio vacío si es necesario */
     border: 2px solid #000000; /* Añadir un borde para mayor claridad */
+}
+
+
+
+/* Para pantallas medianas como tablets (más de 768px) */
+@media (min-width: 430px) {
+    .Contenedor-tarjetas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+/* Para pantallas medianas como tablets (más de 768px) */
+@media (min-width: 600px) {
+    .Contenedor-tarjetas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* Para pantallas grandes como escritorios (más de 1024px) */
+@media (min-width: 1080px) {
+    .Contenedor-tarjetas {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

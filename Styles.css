@@ -2,27 +2,24 @@ html { /**Configuración general de HTML**/
     background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
     background-size: 2300px;
     margin: 0;
-    padding: 20px;
+    padding: 35px;
 }
 /*------------------------------------Encabezado-------------------------------------*/
 .Text-contenedor { /* Encabezado de la página */
-    grid-column: 6;
-    grid-row: 1;
+  
     font-size: 40px;
-    position: absolute;
     font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 10px;
-    margin-left: 350px;
+    padding: 100px;
+     margin: 0;
+    margin-left: 150px;
     color: #fff7f7;
-    
 }
 /*------------------------------------Subtitulo-------------------------------------*/
 .animales1 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
+    margin: 0px;
+    padding: 20px;
     margin-left: 500px;
     color: #fff7f7;
 }

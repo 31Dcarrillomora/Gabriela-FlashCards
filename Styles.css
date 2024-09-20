@@ -24,6 +24,8 @@ html {
     text-align: center;
     color: #fff7f7;
 }
+   
+
 
 /*-----------------------------------Animales 1--------------------------------------------------*/
 .Contenedor-tarjetas {
@@ -65,21 +67,21 @@ img {
 @media (min-width: 100px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
      
     }}
 /* desconocido (más de 200px) */
 @media (min-width: 200px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
    
     }}
 /* desconocido (más de 300px) */
 @media (min-width: 300px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
 
     }}
 
@@ -87,7 +89,7 @@ img {
 @media (min-width: 400px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
 
     }
 }
@@ -95,7 +97,7 @@ img {
 @media (min-width: 500px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         
     }
 }
@@ -103,7 +105,7 @@ img {
 @media (min-width: 600px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         
     }
 }
@@ -112,7 +114,7 @@ img {
 @media (min-width: 700px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         
     }
 }
@@ -120,20 +122,20 @@ img {
 /* desconocido (más de 800px) */
 @media (min-width: 800px) {
     .Contenedor-tarjetas {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         
     }}
 /* desconocido (más de 900px) */
 @media (min-width: 900px) {
     .Contenedor-tarjetas {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         
     }}
 
-/* desconocido (más de 1000px) */
+/* desconocido (más de 1000px) ----*/
 @media (min-width: 1000px) {
     .Contenedor-tarjetas {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         
     }}
 
@@ -141,16 +143,14 @@ img {
 /* Para pantallas medianas (tablets) */
 @media (min-width: 768px) {
     .Contenedor-tarjetas {
-        grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */
-        
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */      
     }
 }
 
 /* Para pantallas grandes (laptops y escritorios) */
 @media (min-width: 1025px) {
     .Contenedor-tarjetas {
-        grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */
-        
-    }
-}
+        grid-template-columns: repeat(auto); /* 4 columnas en pantallas grandes */
+    }}
+
 /*-------------------------------------------------------------------------*/

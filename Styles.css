@@ -13,19 +13,252 @@ html {
     padding: 60px;
     margin-left:100px;
     color: #fff7f7;
+    overflow-x: auto;
 }
 /*------------------------------------Subtitulo-------------------------------------*/
-.subtexto {
+.animales1 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
     font-weight: 500;
     margin: 0;
     padding: 60px;
-    margin-left: 560px;
+    margin-left: 500px;
     color: #fff7f7;
+    overflow-x: auto;
     
 }
-   
+.pajaros2 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 510px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.comida3 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 500px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+
+.bebe4 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 530px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.personas5 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 500px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.colores-formas6 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 410px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.transporte7 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 500px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.hogar8 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 530px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.cocina9 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 520px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.dormitorio10 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 470px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.matematicas11 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 450px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.dias-festivos12 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 450px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.verbos13 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 520px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.adjetivos14 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 500px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.naturaleza15 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 500px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.calendario16 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 500px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.electrodomesticos17 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 410px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.escuela18 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 500px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.cuerpo-humano19 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 420px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.educacion-financiera20 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 380px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.musica21 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 520px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
+.instrumentos-musicales22 {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 60px;
+    margin-left: 350px;
+    color: #fff7f7;
+    overflow-x: auto;
+    
+}
 
 
 /*-----------------------------------Animales 1--------------------------------------------------*/

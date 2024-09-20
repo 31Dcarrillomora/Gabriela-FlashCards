@@ -6,14 +6,14 @@ html {
 }
 /*------------------------------------Encabezado-------------------------------------*/
 .Text-contenedor { /* Encabezado de la página */
-    font-size: 60px;
+    font-size: 40px;
     font-family: "Libre Baskerville", serif;
     font-weight: 500;
     margin: 0;
     padding: 60px;
-    margin-left:100px;
     color: #fff7f7;
-    overflow-x: auto;
+    margin-left: 300px;
+
 }
 /*------------------------------------Subtitulo-------------------------------------*/
 
@@ -25,7 +25,7 @@ html {
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-    overflow-x: auto;
+
     
 }
 
@@ -37,7 +37,7 @@ html {
     padding: 60px;
     margin-left: 510px;
     color: #fff7f7;
-    overflow-x: auto;
+    
     
 }
 .comida3 {
@@ -48,7 +48,7 @@ html {
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-    overflow-x: auto;
+   
     
 }
 
@@ -60,7 +60,7 @@ html {
     padding: 60px;
     margin-left: 530px;
     color: #fff7f7;
-    overflow-x: auto;
+   
     
 }
 .personas5 {
@@ -71,7 +71,7 @@ html {
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-    overflow-x: auto;
+   
     
 }
 .colores-formas6 {
@@ -82,7 +82,7 @@ html {
     padding: 60px;
     margin-left: 410px;
     color: #fff7f7;
-    overflow-x: auto;
+  
     
 }
 .transporte7 {
@@ -93,7 +93,7 @@ html {
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-    overflow-x: auto;
+   
     
 }
 .hogar8 {
@@ -104,7 +104,7 @@ html {
     padding: 60px;
     margin-left: 530px;
     color: #fff7f7;
-    overflow-x: auto;
+
     
 }
 .cocina9 {
@@ -115,7 +115,7 @@ html {
     padding: 60px;
     margin-left: 520px;
     color: #fff7f7;
-    overflow-x: auto;
+   
     
 }
 .dormitorio10 {
@@ -126,7 +126,7 @@ html {
     padding: 60px;
     margin-left: 470px;
     color: #fff7f7;
-    overflow-x: auto;
+    
     
 }
 .matematicas11 {
@@ -137,7 +137,7 @@ html {
     padding: 60px;
     margin-left: 450px;
     color: #fff7f7;
-    overflow-x: auto;
+    
     
 }
 .dias-festivos12 {
@@ -148,7 +148,7 @@ html {
     padding: 60px;
     margin-left: 450px;
     color: #fff7f7;
-    overflow-x: auto;
+  
     
 }
 .verbos13 {
@@ -159,7 +159,7 @@ html {
     padding: 60px;
     margin-left: 520px;
     color: #fff7f7;
-    overflow-x: auto;
+   
     
 }
 .adjetivos14 {
@@ -170,7 +170,7 @@ html {
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-    overflow-x: auto;
+    
     
 }
 .naturaleza15 {
@@ -181,7 +181,7 @@ html {
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-    overflow-x: auto;
+   
     
 }
 .calendario16 {
@@ -192,7 +192,7 @@ html {
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-    overflow-x: auto;
+   
     
 }
 .electrodomesticos17 {
@@ -203,7 +203,7 @@ html {
     padding: 60px;
     margin-left: 410px;
     color: #fff7f7;
-    overflow-x: auto;
+    
     
 }
 .escuela18 {
@@ -214,7 +214,7 @@ html {
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-    overflow-x: auto;
+    
     
 }
 .cuerpo-humano19 {
@@ -225,7 +225,7 @@ html {
     padding: 60px;
     margin-left: 420px;
     color: #fff7f7;
-    overflow-x: auto;
+    
     
 }
 .educacion-financiera20 {
@@ -311,7 +311,10 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-                
+                .animales1{
+                    font-size: 40px;
+                }
+               
                 
               }
         }
@@ -329,7 +332,10 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-                
+                .animales1{
+                    font-size: 40px;
+                }
+              
                 
               }
         }
@@ -347,6 +353,9 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                .animales1{
+                    font-size: 40px;
+                }
                 
                 
               }
@@ -366,6 +375,9 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                .animales1{
+                    font-size: 40px;
+                }
                 
                 
               }
@@ -384,7 +396,12 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-                
+                .animales1{
+                    font-size: 40px;
+                    .Text-contenedor { /* Encabezado de la página */
+            margin-left:100px;}
+           
+                }
                 
               }
         }
@@ -402,6 +419,9 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                .animales1{
+                    font-size: 40px;
+                }
                 
                 
               }
@@ -421,7 +441,10 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-                
+                .animales1{
+                    font-size: 40px;
+                }
+               
                 
               }
         }
@@ -438,6 +461,9 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                .animales1{
+                    font-size: 40px;
+                }
                 
                 
               }
@@ -454,8 +480,9 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-                
-                
+                .animales1{
+                    font-size: 40px; }
+                    
               }
         }
           }
@@ -471,7 +498,9 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-                
+                .animales1{
+                    font-size: 40px;}
+                    
                 
               }
         }
@@ -489,7 +518,9 @@ img {
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-                
+                .animales1{
+                    font-size: 40px;}
+                    
                 
               }
         }
@@ -503,10 +534,13 @@ img {
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-            .subtexto {
-                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-                
+        .subtexto {
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+        .animales1{
+                font-size: 40px;
+            }
+        
                 
               }
         }

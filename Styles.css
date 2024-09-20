@@ -68,89 +68,148 @@ img {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-     
-    }}
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+          }
+        }
+    }
+
 /* desconocido (más de 200px) */
 @media (min-width: 200px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-   
-    }}
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+          }
+        }
+    }
+
 /* desconocido (más de 300px) */
 @media (min-width: 300px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+          }
+        }
+    }
 
-    }}
 
 /* desconocido (más de 400px) */
 @media (min-width: 400px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+          }
+        }
     }
-}
+
 /* desconocido (más de 500px) */
 @media (min-width: 500px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+          }
+        }
     }
-}
+
 /* desconocido (más de 600px) */
 @media (min-width: 600px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            
+          }
+        }
     }
-}
+
 
 /* desconocido (más de 700px) */
 @media (min-width: 700px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            
+          }
+        }
     }
-}
 
 /* desconocido (más de 800px) */
 @media (min-width: 800px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr);
-        
-    }}
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            
+          }
+        }
+    }
 /* desconocido (más de 900px) */
 @media (min-width: 900px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr);
-        
-    }}
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            
+          }
+        }
+    }
 
 /* desconocido (más de 1000px) ----*/
 @media (min-width: 1000px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr);
-        
-    }}
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            
+          }
+        }
+    }
 
 
 /* Para pantallas medianas (tablets) */
 @media (min-width: 768px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */      
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            text-justify: auto;
+            
+          }
+        }
     }
-}
 
 /* Para pantallas grandes (laptops y escritorios) */
 @media (min-width: 1025px) {
     .Contenedor-tarjetas {
-        grid-template-columns: repeat(auto); /* 4 columnas en pantallas grandes */
-    }}
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */
+        .subtexto {
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            
+          }
+        }
+    }
 
 /*-------------------------------------------------------------------------*/

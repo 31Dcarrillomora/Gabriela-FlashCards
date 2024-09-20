@@ -130,7 +130,7 @@ img {
         
     }}
 
-/* desconocido (más de 1000px) */
+/* desconocido (más de 1000px) ----*/
 @media (min-width: 1000px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(2, 1fr);

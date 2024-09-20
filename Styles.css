@@ -4,25 +4,27 @@ html {
     margin: 0;
     padding: 20px;
 }
-/*------------------------------------Textos-------------------------------------*/
+/*------------------------------------Encabezado-------------------------------------*/
 .Text-contenedor { /* Encabezado de la página */
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 500;
-    margin: 0;
-    padding: 30px;
-    text-align: center;
-    color: #fff7f7;
-}
-
-.subtexto {
-    font-size: 40px;
+    font-size: 60px;
     font-family: "Libre Baskerville", serif;
     font-weight: 500;
     margin: 0;
     padding: 50px;
     text-align: center;
+
     color: #fff7f7;
+}
+/*------------------------------------Subtitulo-------------------------------------*/
+.subtexto {
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 20px;
+    margin-left: 560px;
+    color: #fff7f7;
+    
 }
    
 
@@ -194,7 +196,7 @@ img {
         .subtexto {
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-            text-justify: auto;
+            margin-left: 90px;
             
           }
         }
@@ -204,12 +206,8 @@ img {
 @media (min-width: 1025px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */
-        .subtexto {
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-            
           }
         }
-    }
+    
 
 /*-------------------------------------------------------------------------*/

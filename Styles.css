@@ -1,4 +1,4 @@
-html {
+html { /**Configuración general de HTML**/
     background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
     background-size: 2300px;
     margin: 0;
@@ -6,272 +6,200 @@ html {
 }
 /*------------------------------------Encabezado-------------------------------------*/
 .Text-contenedor { /* Encabezado de la página */
-    font-size: 40px;
+    font-size: 1em;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
+    margin-left: 480px;
     color: #fff7f7;
-    margin-left: 300px;
-
+    
 }
 /*------------------------------------Subtitulo-------------------------------------*/
-
 .animales1 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-
-    
 }
-
 .pajaros2 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 510px;
     color: #fff7f7;
-    
-    
 }
 .comida3 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-   
-    
 }
-
 .bebe4 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 530px;
     color: #fff7f7;
-   
-    
 }
 .personas5 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-   
-    
 }
 .colores-formas6 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 410px;
     color: #fff7f7;
-  
-    
 }
 .transporte7 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-   
-    
 }
 .hogar8 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 530px;
     color: #fff7f7;
-
-    
 }
 .cocina9 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 520px;
     color: #fff7f7;
-   
-    
 }
 .dormitorio10 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 470px;
     color: #fff7f7;
-    
-    
 }
 .matematicas11 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 450px;
     color: #fff7f7;
-    
-    
 }
 .dias-festivos12 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 450px;
     color: #fff7f7;
-  
-    
 }
 .verbos13 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 520px;
     color: #fff7f7;
-   
-    
 }
 .adjetivos14 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-    
-    
 }
 .naturaleza15 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-   
-    
 }
 .calendario16 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-   
-    
 }
 .electrodomesticos17 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 410px;
     color: #fff7f7;
-    
-    
 }
 .escuela18 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 500px;
     color: #fff7f7;
-    
-    
 }
 .cuerpo-humano19 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 420px;
     color: #fff7f7;
-    
-    
 }
 .educacion-financiera20 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 380px;
     color: #fff7f7;
-    overflow-x: auto;
-    
 }
 .musica21 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 520px;
     color: #fff7f7;
-    overflow-x: auto;
-    
 }
 .instrumentos-musicales22 {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    font-weight: 500;
     margin: 0;
     padding: 60px;
     margin-left: 350px;
     color: #fff7f7;
-    overflow-x: auto;
-    
 }
-
-
-/*-----------------------------------Animales 1--------------------------------------------------*/
+/**---------------------------Dimensiones del Contenedor grid--------------------------**/
 .Contenedor-tarjetas {
     display: grid; /* Activar CSS Grid */
     gap: 20px; /* Espacio entre filas y columnas */
     grid-template-columns: 200px 200px 200px 200px; /* Cuatro columnas de 200px */
     /**padding: 20px;**/
-
-   
+/**------------------------------------------------------------------------------------------------**/
 }
+/**------------------------------------Diseño de las tarjetas -------------------------------------**/
 .media-card {
     background-color: #fff; /* Fondo de contenedor de las imágenes */
     border-radius: 10px;
@@ -298,136 +226,77 @@ img {
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 
-/*-----------------Dispositivos Responsive------------------------------*/
+/*-------------------------------------Dispositivos Responsive------------------------------------------------------------*/
 
 /* desconocido (más de 100px) */
 @media (min-width: 100px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
                     font-size: 40px;
-                }
-               
-                
-              }
-        }
-          }
-        }
+                }}}}
 
 /* desconocido (más de 200px) */
 @media (min-width: 200px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
                     font-size: 40px;
-                }
-              
-                
-              }
-        }
-          }
-        }
+                }}}}
 
 /* desconocido (más de 300px) */
 @media (min-width: 300px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
-                    font-size: 40px;
-                }
-                
-                
-              }
-        }
-          }
-        }
-
+                    font-size: 40px;}}}}
 
 /* desconocido (más de 400px) */
 @media (min-width: 400px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
-                    font-size: 40px;
-                }
+                    font-size: 40px;}}}}
                 
-                
-              }
-        }
-          }
-        }
 
 /* desconocido (más de 500px) */
 @media (min-width: 500px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-            .subtexto {
+            .subtexto { /**titulo de cada tarjeta del contenedor**/
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
                     font-size: 40px;
-                    .Text-contenedor { /* Encabezado de la página */
-            margin-left:100px;}
-           
-                }
-                
-              }
-        }
-          }
-        }
+            margin-left:100px;}}}}
 
 /* desconocido (más de 600px) */
 @media (min-width: 600px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
-                    font-size: 40px;
-                }
-                
-                
-              }
-        }
-          }
-        }
+                    font-size: 40px;}}}}
 
 
 /* desconocido (más de 700px) */
@@ -435,117 +304,61 @@ img {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
-                    font-size: 40px;
-                }
-               
-                
-              }
-        }
-          }
-        }
+                    font-size: 40px;}}}}
 
 /* desconocido (más de 800px) */
 @media (min-width: 800px) {
     .Contenedor-tarjetas {
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
-                    font-size: 40px;
-                }
-                
-                
-              }
-        }
-          }
-        }
+                    font-size: 40px;}}}}
+        
 /* desconocido (más de 900px) */
 @media (min-width: 900px) {
     .Contenedor-tarjetas {
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
-                    font-size: 40px; }
-                    
-              }
-        }
-          }
-        }
+                    font-size: 40px;}}}}
 
 /* desconocido (más de 1000px) ----*/
 @media (min-width: 1000px) {
     .Contenedor-tarjetas {
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
-                    font-size: 40px;}
-                    
-                
-              }
-        }
-          }
-        }
+                    font-size: 40px;}}}}
 
 
 /* Para pantallas medianas (tablets) */
 @media (min-width: 768px) {
     .Contenedor-tarjetas {
         grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             .subtexto {
                 height: auto; /* Permitir que el contenedor se ajuste a su contenido */
                 padding: 10px; /* Reducir el relleno en pantallas pequeñas */
                 .animales1{
-                    font-size: 40px;}
-                    
-                
-              }
-        }
-          }
-        }
+                    font-size: 40px;}}}}
 
 /* Para pantallas grandes (laptops y escritorios) */
 @media (min-width: 1025px) {
     .Contenedor-tarjetas {
         grid-template-columns: 300px 300px 300px 300px; /* Cuatro columnas de 200px */
-        .Text-contenedor{
-            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
-            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
         .subtexto {
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
         .animales1{
-                font-size: 40px;
-            }
-        
-                
-              }
-        }
-          }
-        }
-    
+                font-size: 40px;}}}}
 
-/*-------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/

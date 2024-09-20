@@ -1,6 +1,6 @@
 html {
     background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
-    background-size: 2000px;
+    background-size: 2300px;
     margin: 0;
     padding: 20px;
 }
@@ -304,7 +304,7 @@ img {
 @media (min-width: 100px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
@@ -322,7 +322,7 @@ img {
 @media (min-width: 200px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
@@ -340,7 +340,7 @@ img {
 @media (min-width: 300px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
@@ -359,7 +359,7 @@ img {
 @media (min-width: 400px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
@@ -377,7 +377,7 @@ img {
 @media (min-width: 500px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
@@ -395,7 +395,7 @@ img {
 @media (min-width: 600px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
@@ -414,7 +414,7 @@ img {
 @media (min-width: 700px) {
     .Contenedor-tarjetas {
         display: grid;
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
@@ -431,7 +431,7 @@ img {
 /* desconocido (más de 800px) */
 @media (min-width: 800px) {
     .Contenedor-tarjetas {
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
@@ -447,7 +447,7 @@ img {
 /* desconocido (más de 900px) */
 @media (min-width: 900px) {
     .Contenedor-tarjetas {
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
@@ -464,7 +464,7 @@ img {
 /* desconocido (más de 1000px) ----*/
 @media (min-width: 1000px) {
     .Contenedor-tarjetas {
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
@@ -482,7 +482,7 @@ img {
 /* Para pantallas medianas (tablets) */
 @media (min-width: 768px) {
     .Contenedor-tarjetas {
-        grid-template-columns: 380px 380px 380px 380px; /* Cuatro columnas de 200px */   
+        grid-template-columns: 350px 350px 350px 350px; /* Cuatro columnas de 200px */
         .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */

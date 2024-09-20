@@ -10,9 +10,8 @@ html {
     font-family: "Libre Baskerville", serif;
     font-weight: 500;
     margin: 0;
-    padding: 50px;
-    text-align: center;
-
+    padding: 60px;
+    margin-left:100px;
     color: #fff7f7;
 }
 /*------------------------------------Subtitulo-------------------------------------*/
@@ -70,36 +69,54 @@ img {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 
 /* desconocido (más de 200px) */
 @media (min-width: 200px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 
 /* desconocido (más de 300px) */
 @media (min-width: 300px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 
 
 /* desconocido (más de 400px) */
@@ -107,37 +124,54 @@ img {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 
 /* desconocido (más de 500px) */
 @media (min-width: 500px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 
 /* desconocido (más de 600px) */
 @media (min-width: 600px) {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-            
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 
 
 /* desconocido (más de 700px) */
@@ -145,67 +179,101 @@ img {
     .Contenedor-tarjetas {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-            
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 
 /* desconocido (más de 800px) */
 @media (min-width: 800px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr);
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-            
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 /* desconocido (más de 900px) */
 @media (min-width: 900px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr);
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-            
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 
 /* desconocido (más de 1000px) ----*/
 @media (min-width: 1000px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr);
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-            
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 
 
 /* Para pantallas medianas (tablets) */
 @media (min-width: 768px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */      
-        .subtexto {
+        .Text-contenedor{
             height: auto; /* Permitir que el contenedor se ajuste a su contenido */
             padding: 10px; /* Reducir el relleno en pantallas pequeñas */
-            margin-left: 90px;
-            
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
-    }
 
 /* Para pantallas grandes (laptops y escritorios) */
 @media (min-width: 1025px) {
     .Contenedor-tarjetas {
         grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */
+        .Text-contenedor{
+            height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+            padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+            .subtexto {
+                height: auto; /* Permitir que el contenedor se ajuste a su contenido */
+                padding: 10px; /* Reducir el relleno en pantallas pequeñas */
+                
+                
+              }
+        }
           }
         }
     

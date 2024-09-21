@@ -3,193 +3,25 @@ html { /**Configuración general de HTML**/
     background-size: 2300px;
     margin: 0;
     padding: 35px;
+    width: fit-content;
 }
 /*------------------------------------Encabezado-------------------------------------*/
 .Text-contenedor { /* Encabezado de la página */
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
-    padding: 100px;
-     margin: 0;
-    margin-left: 150px;
+    text-align: center;
     color: #fff7f7;
 }
 /*------------------------------------Subtitulo-------------------------------------*/
-.animales1 {
+.subtexto {
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
     margin: 0px;
     padding: 20px;
-    margin-left: 500px;
     color: #fff7f7;
+    text-align: center;
 }
-.pajaros2 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 510px;
-    color: #fff7f7;
-}
-.comida3 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 500px;
-    color: #fff7f7;
-}
-.bebe4 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 530px;
-    color: #fff7f7;
-}
-.personas5 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 500px;
-    color: #fff7f7;
-}
-.colores-formas6 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 410px;
-    color: #fff7f7;
-}
-.transporte7 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 500px;
-    color: #fff7f7;
-}
-.hogar8 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 530px;
-    color: #fff7f7;
-}
-.cocina9 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 520px;
-    color: #fff7f7;
-}
-.dormitorio10 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 470px;
-    color: #fff7f7;
-}
-.matematicas11 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 450px;
-    color: #fff7f7;
-}
-.dias-festivos12 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 450px;
-    color: #fff7f7;
-}
-.verbos13 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 520px;
-    color: #fff7f7;
-}
-.adjetivos14 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 500px;
-    color: #fff7f7;
-}
-.naturaleza15 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 500px;
-    color: #fff7f7;
-}
-.calendario16 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 500px;
-    color: #fff7f7;
-}
-.electrodomesticos17 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 410px;
-    color: #fff7f7;
-}
-.escuela18 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 500px;
-    color: #fff7f7;
-}
-.cuerpo-humano19 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 420px;
-    color: #fff7f7;
-}
-.educacion-financiera20 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 380px;
-    color: #fff7f7;
-}
-.musica21 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 520px;
-    color: #fff7f7;
-}
-.instrumentos-musicales22 {
-    font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin: 0;
-    padding: 60px;
-    margin-left: 350px;
-    color: #fff7f7;
-}
+
 /**---------------------------Dimensiones del Contenedor grid--------------------------**/
 .Contenedor-tarjetas {
     display: grid; /* Activar CSS Grid */

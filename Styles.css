@@ -6,7 +6,6 @@ html { /**Configuración general de HTML**/
 }
 /*------------------------------------Encabezado-------------------------------------*/
 .Text-contenedor { /* Encabezado de la página */
-  
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
     padding: 100px;
